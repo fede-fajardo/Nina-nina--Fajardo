@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(blueviolet violet pink);
+    background-color: rgb(211, 152, 203);
 font-family: Georgia, 'Times New Roman', Times, serif;
 overflow-x: hidden;
 }
@@ -16,8 +16,28 @@ color: #3f3f3f;
     max-height: 50rem;
 }
 #header{
-    background-color: rgb(211, 152, 203) !important;
+    background: linear-gradient(violet pink) !important;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 
 
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    #iconos{
+        display: flex;
+        justify-content: center !important;
+    }
+}
