@@ -13,7 +13,7 @@ color: #3f3f3f;
     font-weight: bold;
 }
 .carousel-inner{
-    max-height: 60rem;
+    max-height: 50rem;
 }
 #header{
     background-color: rgb(211, 152, 203) !important;
