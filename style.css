@@ -17,7 +17,7 @@ color: #3f3f3f;
 }
 #header{
     background: linear-gradient(violet pink) !important;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
 }
