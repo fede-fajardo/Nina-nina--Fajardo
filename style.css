@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(255, 218, 250) ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+overflow-x: hidden;
+}
+#menu li > a {
+font-size: 18px;
+font-weight: bold;
+color: #3f3f3f;
+}
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+.carousel-inner{
+    max-height: 60rem;
+}
+#header{
+    background-color: rgb(211, 152, 203) !important;
+}
+
+
+
