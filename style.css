@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(255, 218, 250) ;
+    background: linear-gradient(blueviolet pink) ;
 font-family: Georgia, 'Times New Roman', Times, serif;
 overflow-x: hidden;
 }
