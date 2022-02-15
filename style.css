@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(blueviolet pink) ;
+    background-image: linear-gradient(blueviolet violet pink);
 font-family: Georgia, 'Times New Roman', Times, serif;
 overflow-x: hidden;
 }
